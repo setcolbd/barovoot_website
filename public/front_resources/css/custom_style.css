@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "FontAwesome";
+}
+.select2-results__option[aria-selected],
+.select2-container--default .select2-selection--single .select2-selection__rendered,
+select,td {
+    font-family: FontAwesome;
+}
+span.eachAudio.plDuration {
+    float: right;
+    margin-right: 20px;
+}

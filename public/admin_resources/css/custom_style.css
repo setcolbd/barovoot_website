@@ -1,0 +1,83 @@
+.form-group > span {
+    color: red;
+}
+
+@font-face {
+    font-family: "FontAwesome";
+}
+
+.select2-results__option[aria-selected],
+.select2-container--default .select2-selection--single .select2-selection__rendered,
+select, td {
+    font-family: FontAwesome;
+}
+
+#leftsidebar {
+    height: 100%;
+    overflow: scroll;
+}
+
+.sidebar .menu .list a {
+    padding: 5px 13px !important;
+}
+
+.body .table tbody tr th {
+    width: 10%;
+}
+
+.sidebar .menu .list .ml-menu li a {
+    padding: 5px 59px !important;
+}
+
+td a .btn:not(.btn-link):not(.btn-circle) {
+    font-size: 6px;
+}
+
+.btn {
+    padding: 9px 20px;
+    margin: 0px 5px;
+}
+.table-bordered tbody tr td, .table-bordered tbody tr th {
+    padding: 0px;
+}
+
+td.sorting_1 {
+    text-align: center;
+}
+
+.form-group-lg .form-control {
+    height: 41px;
+    padding: 6px 5px;
+    font-size: 14px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+
+.header .add_button {
+    font-size: 15px !important;
+    padding: 5px;
+}
+.floatleft{
+    float: left;
+}
+.floatright{
+    float: right;
+}
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+}
+a.previous {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #ddd;
+}
+a.previous:hover {
+    background-color: #ccc;
+    color: black;
+}
+a.next {
+    background-color: #4CAF50;
+    color: white;
+}
